@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo HTML Semântico</title>    
+</head>
+<body>
+    <figure> <!--(container) para imagem explicativa-->
+        <img src="carro.jpg" alt="Carro" width="250">
+        <figcaption>Descrição do veículo</figcaption> <!--Descrição da figure (explicação)-->
+    </figure>
+
+    <picture>
+        <source srcset="carro-small.webp" media="(min-width: 600px)">
+        <img src="carro.jpg" alt="Carro" width="400">
+    </picture>
+</body>
+</html>
